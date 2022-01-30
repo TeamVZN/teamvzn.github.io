@@ -1,0 +1,29 @@
+{
+  "name": "vzn-bot",
+  "version": "0.1.0",
+  "description": "Discord bot for Team VZN",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tehcn/VZN.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Noah Perry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tehcn/VZN/issues"
+  },
+  "homepage": "https://github.com/Tehcn/VZN#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
