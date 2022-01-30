@@ -1,0 +1,36 @@
+header {
+    grid-row: 1;
+    grid-column: 1 / 4;
+
+    background-color: var(--secondary-bg);
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+header .header-container {
+    grid-column: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    grid-column: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+header .header-container h1 {
+    color: var(--main-hcolor);
+    cursor: pointer;
+}
+
+header .header-container h1:hover {
+    color: var(--secondary-fcolor)
+}

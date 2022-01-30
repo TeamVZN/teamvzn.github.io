@@ -1,0 +1,15 @@
+body {
+    display: grid;
+
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.5fr 3fr 0.25fr;
+}
+
+a {
+    color: var(--secondary-fcolor);
+    text-decoration: none;
+}
+
+a:hover {
+    color:hsl(40, 100%, 70%)
+}
