@@ -1,0 +1,27 @@
+/* global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg: hsl(0, 0%, 17%);
+    --secondary-bg: hsl(0, 0%, 15%);
+    --tertiary-bg: hsl(0, 0%, 20%);
+
+    --main-fcolor: hsl(0, 0%, 100%);
+    --secondary-fcolor: hsl(40, 100%, 55%);;
+
+    --main-hcolor: hsl(40, 100%, 50%);;
+    --secondary-hcolor: hsl(40, 100%, 59%);
+}
+
+html, body {
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color: var(--main-fcolor);
+    background-color: var(--main-bg);
+}

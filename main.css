@@ -1,0 +1,17 @@
+main {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+aside#ad {
+    margin: 05em;
+    grid-column: 3;
+    grid-row: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--tertiary-bg);
+}
