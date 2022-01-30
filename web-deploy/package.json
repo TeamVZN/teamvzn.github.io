@@ -1,0 +1,22 @@
+{
+  "name": "web-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy-web.js",
+  "scripts": {
+    "start": "node deploy-web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tehcn/VZN.git"
+  },
+  "author": "Noah Perry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tehcn/VZN/issues"
+  },
+  "homepage": "https://github.com/Tehcn/VZN#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

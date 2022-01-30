@@ -11,10 +11,10 @@
     --tertiary-bg: hsl(0, 0%, 20%);
 
     --main-fcolor: hsl(0, 0%, 100%);
-    --secondary-fcolor: hsl(40, 100%, 55%);;
+    --secondary-fcolor: hsl(190, 100%, 55%);;
 
-    --main-hcolor: hsl(40, 100%, 50%);;
-    --secondary-hcolor: hsl(40, 100%, 59%);
+    --main-hcolor: hsl(190, 100%, 50%);;
+    --secondary-hcolor: hsl(190, 100%, 59%);
 }
 
 html, body {
