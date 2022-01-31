@@ -3,6 +3,9 @@ main {
     grid-row: 2;
 }
 
+main h2 {
+    padding-top: 0.5em
+}
 
 aside#ad {
     margin: 05em;
