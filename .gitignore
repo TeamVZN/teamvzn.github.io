@@ -1,5 +1,5 @@
 # discord bot
 
-bot/node_modules/
-bot/package-lock.json
+*/node_modules/
+*/package-lock.json
 bot/config.json
