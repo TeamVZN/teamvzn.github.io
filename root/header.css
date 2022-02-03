@@ -16,10 +16,13 @@ header .header-container {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    gap: 1em;
 }
 
 header .header-container img {
     padding: 0.5em;
+    border-radius: 50px;
 }
 
 header nav {
